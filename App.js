@@ -71,7 +71,7 @@ function Table({ columns, data, update }) {
       dataLength={rows.length}
       next={update}
       hasMore={true}
-      loader={<h4>Loading more 2 itens...</h4>}
+      loader={<h4>Loading more items...</h4>}
     >
       <table {...getTableProps()}>
         <thead>
